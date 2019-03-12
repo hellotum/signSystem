@@ -1,0 +1,163 @@
+/*wePublic*/
+.imgbox
+{
+    width: 100%;
+    height:200px;
+    position: relative;
+    overflow: hidden;
+}
+.imgbox img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.imgbox .person{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 600;
+    background: rgba(255,255,255,0.8);
+}
+.person .btn{
+    margin:auto 5px;
+    vertical-align:middle
+}
+.buttonlist{
+    height:20px;
+    position:absolute;
+    max-width:600px;
+    right:0px;
+    bottom: -2px;
+    text-align:center;
+}
+
+.b1{
+    display:block;
+    float:left;
+    border:6px #c3c3c3 solid;
+    border-radius:6px;
+    width:0px;
+    height:0px;
+    margin:0 12px 0 0;
+    filter:alpha(opacity=50); /* IE 透明度20% */
+    \-moz-opacity:0.5; /* Moz + FF 透明度20%*/
+    opacity: 0.5; /* 支持CSS3的浏览器（FF 1.5也支持）透明度20%*/
+}
+
+.b2{
+    display:block;
+    float:left;
+    border:6px #23D0C3 solid;
+    border-radius:6px;
+    width:0px;
+    height:0px;
+    margin:0 12px 0 0;
+    filter:alpha(opacity=50); /* IE 透明度20% */
+    \-moz-opacity:0.5; /* Moz + FF 透明度20%*/
+    opacity: 0.5; /* 支持CSS3的浏览器（FF 1.5也支持）透明度20%*/
+}
+.padding0{
+    padding: 0;
+}
+.marB15{
+    margin-bottom: 15px;
+    border: 0px !important;
+}
+.block10{
+    height: 10px;
+}
+.borderBGreen{
+    border-bottom: 5px double #23D0C3 !important;
+}
+.aGreen,.aGreen :hover,.aGreen :focus{
+    color: #23D0C3;
+    text-decoration:none;
+}
+.textWieght{
+    font-weight: 600 !important;
+}
+.textGreen{
+    color: #23D0C3;
+}
+.bgOrange{
+    background: orange;
+}
+.textGrey{
+    color: orange;
+}
+.text7b{
+    color: #6e6e6e;
+}
+.bgGreen{
+    background: #23D0C3 !important;
+}
+.titleGreen{
+    color: #23D0C3;
+}
+.bigTitle{
+    font-size: 21px;
+    font-weight: 600;
+    text-align: center;
+}
+.topTitle{
+    position: relative;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+}
+.topTitle .trangle{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    height: 30px;
+    width: 30px;
+}
+.trangle1
+{
+    width:0px;
+    height:0px;
+    border-top:solid transparent 12px;
+    border-bottom:solid transparent 12px;
+    border-left:solid transparent 12px;
+    border-right:solid #ffffff 12px;
+    position:absolute;
+    top:3px;
+    left:-4px;
+}
+.trangle2
+{
+    width:0px;
+    height:0px;
+    border-top:solid transparent 12px;
+    border-bottom:solid transparent 12px;
+    border-left:solid transparent 12px;
+    border-right:solid #23D0C3 12px;
+    position:absolute;
+    top:3px;
+    left:0px;
+}
+.inBox{
+    position: relative;
+    margin-right: 10px;
+}
+.inBox img{
+    width: 50px;
+    height: 40px;
+    display: block;
+    overflow: hidden;
+}
+.inTitle{
+    font-size: 13px;color: #888888;
+}
+.hidden{
+    display: none;
+}
+.textRed{
+    color: red !important;
+}
+/*wePublic*/
